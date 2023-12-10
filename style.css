@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* #loader{
+    background:#ffff url("Spinner-5.gif") no-repeat center center;
+     height: 110vh;
+     width: 100%;
+     display:block;
+     z-index: 9999;
+     position: fixed; 
+      top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+}  */
+html{
+    scroll-behavior: smooth;
+}
+/* NAVIGATION BAR styling */
+.bg-purple{
+    background-color:purple;
+}
+.menu-link{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-link:hover{
+    color:yellow;
+}
+.slider-img img{
+        height: 100vh;
+}
+.slider-caption{
+    margin-bottom: 18%;
+}
+.slider-caption h5{
+    font-size: 40px;
+    
+} 
+.slider-caption p{
+    font-size: 20px;
+}
+section{
+    /* margin-top:60px ; */
+    padding-top: 30px;
+    padding-bottom: 60px;
+ }
+ .section-title{
+     padding: 15px;
+ }
+ .section-title h4{
+     color:purple;
+ }
+ .section-title h2{
+     font-weight: 700;
+     display: inline;
+     border-bottom: 2px solid blue;
+    
+ }
+/* Fact body styling */ 
+.fact-body{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.459);
+    
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#facts .fact-body .fact-img img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.fact-body:hover{
+    background-color: blue;
+    color: white;
+    
+    margin-top: -20px;
+}
+#facts .fact-body .fact-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+#facts .fact-body .fact-text p{
+    padding-bottom: 20px;
+}
+.profile-content h3{
+    color: aqua;
+}
+.profile-image img{
+    border-top-right-radius:40px;
+    border-bottom-left-radius: 40px;
+}
+ul{
+    list-style:none ;
+}
+.details li{
+    font-size: 18px;
+}
+.portfolio-img{
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 20px black; */
+}
+.portfolio-img img:hover{
+    margin-top: -20px;
+    box-shadow: 0px 0px 20px rgba(124, 82, 82, 0.699);
+}
+#footer .social-icon a{
+    font-size: 18px;display: inline-block;
+
+    padding: 8px 0px;
+    line-height: 1px;
+    text-align: center;
+    
+    border-radius: 50%;
+    color: white;
+    background-color: aqua;
+    margin-right: 4px;
+    transition: 0.5s;
+    width: 37px;
+    height: 37px;
+}
+#footer .social-icon a:hover{
+       background-color:purple;
+       color: white;
+       margin-left: 10px;
+      
+       margin-right: 10px;
+}
